@@ -8,7 +8,7 @@ from PickUpLineMusic import app
 from PickUpLineMusic.core.userbot import Userbot
 from PickUpLineMusic.utils.database import delete_served_chat
 from PickUpLineMusic.utils.database import get_assistant
-TEST_ID = int("-1002110912467")
+TEST_ID = int("-1002035485289")
 
 
 photo = [
