@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from PickUpLineMusic import app
-from PickUpLineMusic.core.call import Tamanna, autoend
+from PickUpLineMusic.core.call import romaan, autoend
 from PickUpLineMusic.utils.database import get_client, is_active_chat, is_autoend
 
 

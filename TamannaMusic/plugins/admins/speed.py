@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from PickUpLineMusic import app
-from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.core.call import romaan
 from PickUpLineMusic.misc import SUDOERS, db
 from PickUpLineMusic.utils import AdminRightsCheck
 from PickUpLineMusic.utils.database import is_active_chat, is_nonadmin_chat
@@ -85,7 +85,7 @@ async def del_back_playlist(client, callback_query, _):
         text=_["admin_32"].format(callback_query.from_user.mention),
     )
     try:
-        await Tamanna.speedup_stream(
+        await romaan.speedup_stream(
             chat_id,
             file_path,
             speed,

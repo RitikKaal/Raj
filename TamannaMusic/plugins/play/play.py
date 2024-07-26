@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 from PickUpLineMusic.utils.database import get_assistant
 import config
 from PickUpLineMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.core.call import romaan
 from PickUpLineMusic.misc import SUDOERS
 from PickUpLineMusic.utils import seconds_to_min, time_to_seconds
 from PickUpLineMusic.utils.channelplay import get_channeplayCB
@@ -348,7 +348,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await Tamanna.stream_call(url)
+                await romaan.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(_["black_9"])
                 return await app.send_message(
@@ -561,8 +561,8 @@ async def play_music(client, CallbackQuery, _):
     return await mystic.delete()
 
 
-@app.on_callback_query(filters.regex("TamannamousAdmin") & ~BANNED_USERS)
-async def Tamannamous_check(client, CallbackQuery):
+@app.on_callback_query(filters.regex("romaanmousAdmin") & ~BANNED_USERS)
+async def romaanmous_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
             "» ʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ ᴛᴏ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ :\n\nᴏᴘᴇɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢs.\n-> ᴀᴅᴍɪɴɪsᴛʀᴀᴛᴏʀs\n-> ᴄʟɪᴄᴋ ᴏɴ ʏᴏᴜʀ ɴᴀᴍᴇ\n-> ᴜɴᴄʜᴇᴄᴋ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴs.",
@@ -572,7 +572,7 @@ async def Tamannamous_check(client, CallbackQuery):
         pass
 
 
-@app.on_callback_query(filters.regex("TamannaPlaylists") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("romaanPlaylists") & ~BANNED_USERS)
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()

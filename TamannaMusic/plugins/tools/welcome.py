@@ -19,7 +19,7 @@ from PickUpLineMusic import app, userbot
 from PickUpLineMusic.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from PickUpLineMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.romaan_ban import admin_filter
 import random
 from pyrogram import Client, filters
 from pyrogram.types import ChatJoinRequest, InlineKeyboardButton, InlineKeyboardMarkup
@@ -33,7 +33,7 @@ from pyrogram.enums import ParseMode
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from PickUpLineMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.romaan_ban import admin_filter
 import os
 from PickUpLineMusic.misc import SUDOERS
 from PIL import ImageDraw, Image, ImageFont, ImageChops

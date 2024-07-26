@@ -5,7 +5,7 @@ from PickUpLineMusic import app
 from config import OWNER_ID
 from PickUpLineMusic.misc import SUDOERS
 from pyrogram.types import Message
-from PickUpLineMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.romaan_ban import admin_filter
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 from PickUpLineMusic.utils.database import add_served_chat, delete_served_chat
 

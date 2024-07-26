@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from PickUpLineMusic import LOGGER, app, userbot
-from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.core.call import romaan
 from PickUpLineMusic.misc import sudo
 from PickUpLineMusic.plugins import ALL_MODULES
 from PickUpLineMusic.utils.database import get_banned_users, get_gbanned
@@ -39,8 +39,8 @@ async def init():
         importlib.import_module("PickUpLineMusic.plugins" + all_module)
     LOGGER("PickUpLineMusic.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
-    await Tamanna.start()
-    await Tamanna.decorators()
+    await romaan.start()
+    await romaan.decorators()
     LOGGER("PickUpLineMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐑𝚯𝐌𝚨𝚨𝐍♨️\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()

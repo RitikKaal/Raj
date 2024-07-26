@@ -1,4 +1,4 @@
-from PickUpLineMusic.core.bot import Tamanna
+from PickUpLineMusic.core.bot import romaan
 from PickUpLineMusic.core.dir import dirr
 from PickUpLineMusic.core.git import git
 from PickUpLineMusic.core.userbot import Userbot
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = Tamanna()
+app = romaan()
 api = SafoneAPI()
 userbot = Userbot()
 

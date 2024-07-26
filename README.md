@@ -15,7 +15,7 @@
 
 
 <h2 align="center">
-    ─「 𝐓𝚨𝐌𝚨𝐍𝐍𝚨 𝗠𝗨𝜹𝗜𝗖 」─
+    ─「 𐏓[ ⃪ɪ⃪꯭꯭ϻ꯭̱̱֯💸⃟⃚꯭⃐ ❰꯭𝐙𝐢꯭꯭꯭𝐝𝐚꯭꯭꯭𝐧 ꯭꯭꯭𝐀𝐥꯭꯭꯭𝐢𒐕꯭꯭꯭꯭, 」─
 
 ★ 𝙷𝙴𝚁𝙾𝙺𝚄 + 𝚅𝙿𝚂 ★
 </h2>
@@ -35,7 +35,7 @@
   <img src="https://graph.org/file/265edcea4b5fd02c189f0.jpg">
 </p>
 
-**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝐓𝚨𝐌𝚨𝐍𝐍𝚨 𝐑𝐎𝐁𝐎𝐓](https://t.me/TAMANNA_MUSIC_ROBO_BOT)**
+**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝐓𝚨𝐌𝚨𝐍𝐍𝚨 𝐑𝐎𝐁𝐎𝐓](https://t.me/romaan_MUSIC_ROBO_BOT)**
 
 
 

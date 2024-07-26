@@ -2,7 +2,7 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from PickUpLineMusic import app
-from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.core.call import romaan
 from PickUpLineMusic.utils import bot_sys_stats
 from PickUpLineMusic.utils.decorators.language import language
 from PickUpLineMusic.utils.inline import supp_markup
@@ -84,7 +84,7 @@ async def ping_com(client, message: Message, _):
     await asyncio.sleep(3)
     await response.edit_caption("**📩sᴇɴᴅɪɴɢ sʏsᴛᴇᴍ ᴀɴᴀʟʏsᴇᴅ ᴅᴀᴛᴀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
     start = datetime.now()
-    pytgping = await Tamanna.ping()
+    pytgping = await romaan.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)

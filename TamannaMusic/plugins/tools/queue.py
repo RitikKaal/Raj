@@ -8,7 +8,7 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from PickUpLineMusic import app
 from PickUpLineMusic.misc import db
-from PickUpLineMusic.utils import TamannaBin, get_channeplayCB, seconds_to_min
+from PickUpLineMusic.utils import romaanBin, get_channeplayCB, seconds_to_min
 from PickUpLineMusic.utils.database import get_cmode, is_active_chat, is_music_playing
 from PickUpLineMusic.utils.decorators.language import language, languageCB
 from PickUpLineMusic.utils.inline import queue_back_markup, queue_markup
@@ -176,7 +176,7 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
             return await CallbackQuery.edit_message_text(msg, reply_markup=buttons)
         if "✨" in msg:
             msg = msg.replace("✨", "")
-        link = await TamannaBin(msg)
+        link = await romaanBin(msg)
         med = InputMediaPhoto(media=link, caption=_["queue_3"].format(link))
         await CallbackQuery.edit_message_media(media=med, reply_markup=buttons)
     else:

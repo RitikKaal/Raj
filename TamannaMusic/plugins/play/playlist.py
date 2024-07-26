@@ -21,7 +21,7 @@ from PickUpLineMusic.utils.decorators.language import language, languageCB
 from PickUpLineMusic.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from PickUpLineMusic.utils.pastebin import TamannaBin
+from PickUpLineMusic.utils.pastebin import romaanBin
 import time
 import asyncio
 import yt_dlp
@@ -680,7 +680,7 @@ async def add_playlist(client, CallbackQuery, _):
     await CallbackQuery.answer("➻ ᴛᴏ ᴀᴅᴅ ᴀ sᴏɴɢ ɪɴ ʏᴏᴜʀ ᴘʟᴀʏʟɪsᴛ ᴊᴜsᴛ ᴛʏᴘᴇ /addplaylist (Here your song name)\n\n➥ ᴇxᴀᴍᴘʟᴇ » /addplaylist Blue Eyes Blue tyes.", show_alert=True)
     
 
-@app.on_callback_query(filters.regex("Tamanna_playlist") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("romaan_playlist") & ~BANNED_USERS)
 @languageCB
 async def add_playlist(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()

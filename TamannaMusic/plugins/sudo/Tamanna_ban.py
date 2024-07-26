@@ -4,14 +4,14 @@ from PickUpLineMusic import app, userbot
 from PickUpLineMusic.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from PickUpLineMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.romaan_ban import admin_filter
 
 
 
 
 
 
-Tamanna_text = [
+romaan_text = [
 "hey please don't disturb me.",
 "who are you",    
 "aap kon ho",

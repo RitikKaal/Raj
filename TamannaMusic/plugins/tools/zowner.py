@@ -27,7 +27,7 @@ from pyrogram.errors import (
     UserNotParticipant,
 )
 from PickUpLineMusic import app
-from PickUpLineMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.romaan_ban import admin_filter
 from PickUpLineMusic.utils.decorators.userbotjoin import UserbotWrapper
 from PickUpLineMusic.utils.database import get_assistant, is_active_chat
 
@@ -103,7 +103,7 @@ import time
 async def add_all(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
-        await message.reply("**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd TAMANNA_MUSIC_ROBOT`**")
+        await message.reply("**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd romaan_MUSIC_ROBOT`**")
         return
     
     bot_username = command_parts[1]

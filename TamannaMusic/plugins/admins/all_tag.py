@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
 from PickUpLineMusic import app
-from PickUpLineMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.romaan_ban import admin_filter
 
 
 SPAM_CHATS = []

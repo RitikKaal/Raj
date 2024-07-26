@@ -15,7 +15,7 @@ from pyrogram.errors import (
     UserNotParticipant,
 )
 from PickUpLineMusic import app
-from PickUpLineMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.romaan_ban import admin_filter
 from PickUpLineMusic.utils.decorators.userbotjoin import UserbotWrapper
 from PickUpLineMusic.utils.database import get_assistant, is_active_chat
 links = {}

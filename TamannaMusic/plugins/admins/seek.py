@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from PickUpLineMusic import YouTube, app
-from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.core.call import romaan
 from PickUpLineMusic.misc import db
 from PickUpLineMusic.utils import AdminRightsCheck, seconds_to_min
 from PickUpLineMusic.utils.inline import close_markup
@@ -56,7 +56,7 @@ async def seek_comm(cli, message: Message, _, chat_id):
     if "index_" in file_path:
         file_path = playing[0]["vidid"]
     try:
-        await Tamanna.seek_stream(
+        await romaan.seek_stream(
             chat_id,
             file_path,
             seconds_to_min(to_seek),
