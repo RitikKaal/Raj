@@ -62,7 +62,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("l_DW_l")
+                await self.one.join_chat("ll_P_U_L_lI")
                 await self.one.join_chat("lI_HEERIYE_ll")
                 await self.one.join_chat("lI_HEERIYE_ll")
                 await self.one.join_chat("lI_HEERIYE_ll")
@@ -94,7 +94,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("l_DW_l")
+                await self.two.join_chat("ll_P_U_L_lI")
                 await self.two.join_chat("lI_HEERIYE_ll")
                 await self.two.join_chat("lI_HEERIYE_ll")
                 await self.two.join_chat("lI_HEERIYE_ll")
@@ -117,7 +117,7 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("l_DW_l")
+                await self.three.join_chat("ll_P_U_L_lI")
                 await self.three.join_chat("lI_HEERIYE_ll")
                 await self.three.join_chat("lI_HEERIYE_ll")
                 await self.three.join_chat("lI_HEERIYE_ll")
@@ -140,7 +140,7 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("l_DW_l")
+                await self.four.join_chat("ll_P_U_L_lI")
                 await self.four.join_chat("lI_HEERIYE_ll")
                 await self.four.join_chat("lI_HEERIYE_ll")
                 await self.four.oin_chat("lI_HEERIYE_ll")
@@ -163,7 +163,7 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("l_DW_l")
+                await self.five.join_chat("ll_P_U_L_lI")
                 await self.five.join_chat("lI_HEERIYE_ll")
                 await self.five.join_chat("lI_HEERIYE_ll")
                 await self.five.join_chat("lI_HEERIYE_ll")
