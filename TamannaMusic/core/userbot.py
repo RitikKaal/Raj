@@ -63,10 +63,10 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("ll_P_U_L_lI")
-                await self.one.join_chat("lI_HEERIYE_ll")
-                await self.one.join_chat("lI_HEERIYE_ll")
-                await self.one.join_chat("lI_HEERIYE_ll")
-                await self.one.join_chat("lI_HEERIYE_ll")
+                await self.one.join_chat("addlist/oNS1XEtWNYpjZWVl")
+                await self.one.join_chat("addlist/oNS1XEtWNYpjZWVl")
+                await self.one.join_chat("addlist/oNS1XEtWNYpjZWVl")
+                await self.one.join_chat("addlist/oNS1XEtWNYpjZWVl")
             except:
                 pass
             assistants.append(1)
@@ -95,9 +95,9 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("ll_P_U_L_lI")
-                await self.two.join_chat("lI_HEERIYE_ll")
-                await self.two.join_chat("lI_HEERIYE_ll")
-                await self.two.join_chat("lI_HEERIYE_ll")
+                await self.two.join_chat("addlist/oNS1XEtWNYpjZWVl")
+                await self.two.join_chat("addlist/oNS1XEtWNYpjZWVl")
+                await self.two.join_chat("addlist/oNS1XEtWNYpjZWVl")
             except:
                 pass
             assistants.append(2)
@@ -118,9 +118,9 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("ll_P_U_L_lI")
-                await self.three.join_chat("lI_HEERIYE_ll")
-                await self.three.join_chat("lI_HEERIYE_ll")
-                await self.three.join_chat("lI_HEERIYE_ll")
+                await self.three.join_chat("addlist/oNS1XEtWNYpjZWVl")
+                await self.three.join_chat("addlist/oNS1XEtWNYpjZWVl")
+                await self.three.join_chat("addlist/oNS1XEtWNYpjZWVl")
             except:
                 pass
             assistants.append(3)
@@ -141,9 +141,9 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.four.join_chat("ll_P_U_L_lI")
-                await self.four.join_chat("lI_HEERIYE_ll")
-                await self.four.join_chat("lI_HEERIYE_ll")
-                await self.four.oin_chat("lI_HEERIYE_ll")
+                await self.four.join_chat("addlist/oNS1XEtWNYpjZWVl")
+                await self.four.join_chat("addlist/oNS1XEtWNYpjZWVl")
+                await self.four.oin_chat("addlist/oNS1XEtWNYpjZWVl")
             except:
                 pass
             assistants.append(4)
@@ -164,9 +164,9 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.five.join_chat("ll_P_U_L_lI")
-                await self.five.join_chat("lI_HEERIYE_ll")
-                await self.five.join_chat("lI_HEERIYE_ll")
-                await self.five.join_chat("lI_HEERIYE_ll")
+                await self.five.join_chat("addlist/oNS1XEtWNYpjZWVl")
+                await self.five.join_chat("addlist/oNS1XEtWNYpjZWVl")
+                await self.five.join_chat("addlist/oNS1XEtWNYpjZWVl")
             except:
                 pass
             assistants.append(5)
