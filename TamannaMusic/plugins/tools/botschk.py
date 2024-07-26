@@ -3,10 +3,10 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from dotenv import load_dotenv
 import config
-from TamannaMusic.core.userbot import Userbot
-from TamannaMusic import app
+from PickUpLineMusic.core.userbot import Userbot
+from PickUpLineMusic import app
 from datetime import datetime
-from TamannaMusic.utils.database import get_assistant
+from PickUpLineMusic.utils.database import get_assistant
 # Assuming Userbot is defined elsewhere
 
 last_checked_time = None

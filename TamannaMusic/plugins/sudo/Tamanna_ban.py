@@ -1,10 +1,10 @@
 import requests
 import random
-from TamannaMusic import app, userbot
-from TamannaMusic.misc import SUDOERS
+from PickUpLineMusic import app, userbot
+from PickUpLineMusic.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from TamannaMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.Tamanna_ban import admin_filter
 
 
 

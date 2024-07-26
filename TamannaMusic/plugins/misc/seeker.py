@@ -1,7 +1,7 @@
 import asyncio
 
-from TamannaMusic.misc import db
-from TamannaMusic.utils.database import get_active_chats, is_music_playing
+from PickUpLineMusic.misc import db
+from PickUpLineMusic.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():

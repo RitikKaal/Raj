@@ -12,13 +12,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-from TamannaMusic import app
-from TamannaMusic.core.call import Tamanna
-from TamannaMusic.misc import db
-from TamannaMusic.utils.database import get_assistant, get_authuser_names, get_cmode
-from TamannaMusic.utils.decorators import ActualAdminCB, AdminActual, language
-from TamannaMusic.utils.formatters import alpha_to_int, get_readable_time
-from TamannaMusic.mongo.afkdb import HEHE
+from PickUpLineMusic import app
+from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.misc import db
+from PickUpLineMusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from PickUpLineMusic.utils.decorators import ActualAdminCB, AdminActual, language
+from PickUpLineMusic.utils.formatters import alpha_to_int, get_readable_time
+from PickUpLineMusic.mongo.afkdb import HEHE
 from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")

@@ -3,17 +3,17 @@ from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from TamannaMusic import app
-from TamannaMusic.utils import first_page, second_page
-from TamannaMusic.utils.database import get_lang
-from TamannaMusic.utils.decorators.language import LanguageStart, languageCB
-from TamannaMusic.utils.inline.help import help_back_markup, private_help_panel
+from PickUpLineMusic import app
+from PickUpLineMusic.utils import first_page, second_page
+from PickUpLineMusic.utils.database import get_lang
+from PickUpLineMusic.utils.decorators.language import LanguageStart, languageCB
+from PickUpLineMusic.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
-from TamannaMusic.misc import SUDOERS
+from PickUpLineMusic.misc import SUDOERS
 from time import time
 import asyncio
-from TamannaMusic.utils.extraction import extract_user
+from PickUpLineMusic.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}

@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from TamannaMusic import app
+from PickUpLineMusic import app
 
 
 @app.on_message(filters.command("st"))

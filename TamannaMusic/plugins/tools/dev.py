@@ -6,11 +6,11 @@ import traceback
 from inspect import getfullargspec
 from io import StringIO
 from time import time
-from TamannaMusic.misc import SUDOERS
+from PickUpLineMusic.misc import SUDOERS
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from TamannaMusic import app
+from PickUpLineMusic import app
 from config import OWNER_ID
 
 

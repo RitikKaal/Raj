@@ -7,13 +7,13 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from TamannaMusic.utils.database import get_assistant
+from PickUpLineMusic.utils.database import get_assistant
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from TamannaMusic import YouTube, app
-from TamannaMusic.core.call import Tamanna
-from TamannaMusic.misc import SUDOERS, db
-from TamannaMusic.utils.database import (
+from PickUpLineMusic import YouTube, app
+from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.misc import SUDOERS, db
+from PickUpLineMusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -27,12 +27,12 @@ from TamannaMusic.utils.database import (
     is_muted,
     set_loop,
 )
-from TamannaMusic.utils.decorators.language import languageCB
-from TamannaMusic.utils.formatters import seconds_to_min
-from TamannaMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from TamannaMusic.utils.inline.play import panel_markup_1, panel_markup_2, panel_markup_3
-from TamannaMusic.utils.stream.autoclear import auto_clean
-from TamannaMusic.utils.thumbnails import get_thumb
+from PickUpLineMusic.utils.decorators.language import languageCB
+from PickUpLineMusic.utils.formatters import seconds_to_min
+from PickUpLineMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from PickUpLineMusic.utils.inline.play import panel_markup_1, panel_markup_2, panel_markup_3
+from PickUpLineMusic.utils.stream.autoclear import auto_clean
+from PickUpLineMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS, SOUNCLOUD_IMG_URL, STREAM_IMG_URL, TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL, adminlist, confirmer, votemode
 from strings import get_string
 from config import lyrical

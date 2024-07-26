@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from TamannaMusic import app
+from PickUpLineMusic import app
 
 
 def start_panel(_):

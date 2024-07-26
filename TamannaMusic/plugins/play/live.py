@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from TamannaMusic import YouTube, app
-from TamannaMusic.utils.channelplay import get_channeplayCB
-from TamannaMusic.utils.decorators.language import languageCB
-from TamannaMusic.utils.stream.stream import stream
+from PickUpLineMusic import YouTube, app
+from PickUpLineMusic.utils.channelplay import get_channeplayCB
+from PickUpLineMusic.utils.decorators.language import languageCB
+from PickUpLineMusic.utils.stream.stream import stream
 from config import BANNED_USERS
 
 

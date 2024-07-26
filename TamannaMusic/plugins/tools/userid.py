@@ -1,4 +1,4 @@
-from TamannaMusic import app
+from PickUpLineMusic import app
 from pyrogram import filters
 from pyrogram.enums import ParseMode
 

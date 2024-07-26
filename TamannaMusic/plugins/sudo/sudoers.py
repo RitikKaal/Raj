@@ -2,12 +2,12 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from strings import get_string, helpers
-from TamannaMusic import app
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.utils.database import add_sudo, remove_sudo
-from TamannaMusic.utils.decorators.language import language
-from TamannaMusic.utils.extraction import extract_user
-from TamannaMusic.utils.inline import close_markup
+from PickUpLineMusic import app
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.utils.database import add_sudo, remove_sudo
+from PickUpLineMusic.utils.decorators.language import language
+from PickUpLineMusic.utils.extraction import extract_user
+from PickUpLineMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 

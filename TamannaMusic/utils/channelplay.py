@@ -1,5 +1,5 @@
-from TamannaMusic import app
-from TamannaMusic.utils.database import get_cmode
+from PickUpLineMusic import app
+from PickUpLineMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

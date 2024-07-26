@@ -1,8 +1,8 @@
-from TamannaMusic import app
+from PickUpLineMusic import app
 from config import OWNER_ID
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from TamannaMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.Tamanna_ban import admin_filter
 
 BOT_ID = app.id
 

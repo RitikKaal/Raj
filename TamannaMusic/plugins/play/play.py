@@ -4,24 +4,24 @@ import asyncio
 from pyrogram import client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
-from TamannaMusic.utils.database import get_assistant
+from PickUpLineMusic.utils.database import get_assistant
 import config
-from TamannaMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from TamannaMusic.core.call import Tamanna
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.utils import seconds_to_min, time_to_seconds
-from TamannaMusic.utils.channelplay import get_channeplayCB
-from TamannaMusic.utils.decorators.language import languageCB
-from TamannaMusic.utils.decorators.play import PlayWrapper
-from TamannaMusic.utils.formatters import formats
-from TamannaMusic.utils.inline import (
+from PickUpLineMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.utils import seconds_to_min, time_to_seconds
+from PickUpLineMusic.utils.channelplay import get_channeplayCB
+from PickUpLineMusic.utils.decorators.language import languageCB
+from PickUpLineMusic.utils.decorators.play import PlayWrapper
+from PickUpLineMusic.utils.formatters import formats
+from PickUpLineMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from TamannaMusic.utils.database import (
+from PickUpLineMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -29,11 +29,11 @@ from TamannaMusic.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from TamannaMusic.utils.logger import play_logs
-from TamannaMusic.utils.stream.stream import stream
+from PickUpLineMusic.utils.logger import play_logs
+from PickUpLineMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 from time import time
-from TamannaMusic.utils.extraction import extract_user
+from PickUpLineMusic.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}

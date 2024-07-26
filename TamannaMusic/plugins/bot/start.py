@@ -7,10 +7,10 @@ from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 import config
-from TamannaMusic import app
-from TamannaMusic.misc import _boot_
-from TamannaMusic.plugins.sudo.sudoers import sudoers_list
-from TamannaMusic.utils.database import (
+from PickUpLineMusic import app
+from PickUpLineMusic.misc import _boot_
+from PickUpLineMusic.plugins.sudo.sudoers import sudoers_list
+from PickUpLineMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -19,15 +19,15 @@ from TamannaMusic.utils.database import (
     is_on_off,
 )
 TEST_ID = -1002110912467
-from TamannaMusic.utils.decorators.language import LanguageStart
-from TamannaMusic.utils.formatters import get_readable_time
-from TamannaMusic.utils.inline import first_page, private_panel, start_panel
+from PickUpLineMusic.utils.decorators.language import LanguageStart
+from PickUpLineMusic.utils.formatters import get_readable_time
+from PickUpLineMusic.utils.inline import first_page, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
-from TamannaMusic.core.userbot import Userbot
+from PickUpLineMusic.core.userbot import Userbot
 from time import time
 import asyncio
-from TamannaMusic.utils.extraction import extract_user
+from PickUpLineMusic.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}

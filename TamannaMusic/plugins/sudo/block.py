@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TamannaMusic import app
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.utils.database import add_gban_user, remove_gban_user
-from TamannaMusic.utils.decorators.language import language
-from TamannaMusic.utils.extraction import extract_user
+from PickUpLineMusic import app
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.utils.database import add_gban_user, remove_gban_user
+from PickUpLineMusic.utils.decorators.language import language
+from PickUpLineMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

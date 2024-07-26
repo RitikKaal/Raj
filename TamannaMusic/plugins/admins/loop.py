@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TamannaMusic import app
-from TamannaMusic.utils.database import get_loop, set_loop
-from TamannaMusic.utils.decorators import AdminRightsCheck
-from TamannaMusic.utils.inline import close_markup
+from PickUpLineMusic import app
+from PickUpLineMusic.utils.database import get_loop, set_loop
+from PickUpLineMusic.utils.decorators import AdminRightsCheck
+from PickUpLineMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

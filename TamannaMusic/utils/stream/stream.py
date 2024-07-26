@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from TamannaMusic import Carbon, YouTube, app
-from TamannaMusic.core.call import Tamanna
-from TamannaMusic.misc import db
-from TamannaMusic.utils.database import add_active_video_chat, is_active_chat
-from TamannaMusic.utils.exceptions import AssistantErr
-from TamannaMusic.utils.inline import aq_markup, close_markup, stream_markup
-from TamannaMusic.utils.pastebin import TamannaBin
-from TamannaMusic.utils.stream.queue import put_queue, put_queue_index
-from TamannaMusic.utils.thumbnails import get_thumb
+from PickUpLineMusic import Carbon, YouTube, app
+from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.misc import db
+from PickUpLineMusic.utils.database import add_active_video_chat, is_active_chat
+from PickUpLineMusic.utils.exceptions import AssistantErr
+from PickUpLineMusic.utils.inline import aq_markup, close_markup, stream_markup
+from PickUpLineMusic.utils.pastebin import TamannaBin
+from PickUpLineMusic.utils.stream.queue import put_queue, put_queue_index
+from PickUpLineMusic.utils.thumbnails import get_thumb
 
 
 async def stream(

@@ -7,10 +7,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 from youtubesearchpython import SearchVideos
 from yt_dlp import YoutubeDL
-from TamannaMusic import app
+from PickUpLineMusic import app
 from time import time
 import asyncio
-from TamannaMusic.utils.extraction import extract_user
+from PickUpLineMusic.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
@@ -102,7 +102,7 @@ from pyrogram.types import Message
 from youtubesearchpython import SearchVideos
 from yt_dlp import YoutubeDL
 
-from TamannaMusic import app
+from PickUpLineMusic import app
 
 
 def get_file_extension_from_url(url):

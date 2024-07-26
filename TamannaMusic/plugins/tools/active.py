@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from unidecode import unidecode
 
-from TamannaMusic import app
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.utils.database import (
+from PickUpLineMusic import app
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,

@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TamannaMusic import app
-from TamannaMusic.utils.errors import capture_err
+from PickUpLineMusic import app
+from PickUpLineMusic.utils.errors import capture_err
 
 
 @app.on_message(filters.command("webss", prefixes=["/", "!", "%", ",", "", ".", "@", "#"]))

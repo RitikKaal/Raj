@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from TamannaMusic.misc import db
-from TamannaMusic.utils.formatters import check_duration, seconds_to_min
+from PickUpLineMusic.misc import db
+from PickUpLineMusic.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 

@@ -1,13 +1,13 @@
 from pyrogram import enums
 from pyrogram.enums import ChatType
 from pyrogram import filters, Client
-from TamannaMusic import app
+from PickUpLineMusic import app
 from config import OWNER_ID
-from TamannaMusic.misc import SUDOERS
+from PickUpLineMusic.misc import SUDOERS
 from pyrogram.types import Message
-from TamannaMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.Tamanna_ban import admin_filter
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
-from TamannaMusic.utils.database import add_served_chat, delete_served_chat
+from PickUpLineMusic.utils.database import add_served_chat, delete_served_chat
 
 # ------------------------------------------------------------------------------- #
 

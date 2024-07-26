@@ -4,9 +4,9 @@ from pyrogram.types import Message
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto, InputMediaVideo, Message
 from config import LOGGER_ID as LOG_GROUP_ID
-from TamannaMusic import app  
-from TamannaMusic.utils.database import get_assistant
-from TamannaMusic.utils.database import delete_served_chat
+from PickUpLineMusic import app  
+from PickUpLineMusic.utils.database import get_assistant
+from PickUpLineMusic.utils.database import delete_served_chat
 
 photo = [
     "https://telegra.ph/file/1949480f01355b4e87d26.jpg",

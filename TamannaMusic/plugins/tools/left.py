@@ -1,4 +1,4 @@
-from TamannaMusic import app
+from PickUpLineMusic import app
 from pyrogram import filters
 from pyrogram.errors import RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
@@ -19,8 +19,8 @@ from pyrogram.enums import ParseMode
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from TamannaMusic.utils.Tamanna_ban import admin_filter
-from TamannaMusic import app
+from PickUpLineMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic import app
 from pyrogram import filters
 from pyrogram.errors import RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
@@ -38,8 +38,8 @@ random_photo = [
     "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
 ]
 
-bg_path = "TamannaMusic/assets/userinfo.png"
-font_path = "TamannaMusic/assets/hiroko.ttf"
+bg_path = "PickUpLineMusic/assets/userinfo.png"
+font_path = "PickUpLineMusic/assets/hiroko.ttf"
 
 get_font = lambda font_size, font_path: ImageFont.truetype(font_path, font_size)
 

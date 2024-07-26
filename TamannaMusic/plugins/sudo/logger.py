@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from TamannaMusic import app
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.utils.database import add_off, add_on
-from TamannaMusic.utils.decorators.language import language
+from PickUpLineMusic import app
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.utils.database import add_off, add_on
+from PickUpLineMusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)

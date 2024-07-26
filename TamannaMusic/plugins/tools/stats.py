@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from TamannaMusic import app
-from TamannaMusic.core.userbot import assistants
-from TamannaMusic.misc import SUDOERS, mongodb
-from TamannaMusic.plugins import ALL_MODULES
-from TamannaMusic.utils.database import get_served_chats, get_served_users, get_sudoers
-from TamannaMusic.utils.decorators.language import language, languageCB
-from TamannaMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from PickUpLineMusic import app
+from PickUpLineMusic.core.userbot import assistants
+from PickUpLineMusic.misc import SUDOERS, mongodb
+from PickUpLineMusic.plugins import ALL_MODULES
+from PickUpLineMusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from PickUpLineMusic.utils.decorators.language import language, languageCB
+from PickUpLineMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 

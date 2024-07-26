@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from TamannaMusic import app
-from TamannaMusic.misc import db
-from TamannaMusic.utils import TamannaBin, get_channeplayCB, seconds_to_min
-from TamannaMusic.utils.database import get_cmode, is_active_chat, is_music_playing
-from TamannaMusic.utils.decorators.language import language, languageCB
-from TamannaMusic.utils.inline import queue_back_markup, queue_markup
+from PickUpLineMusic import app
+from PickUpLineMusic.misc import db
+from PickUpLineMusic.utils import TamannaBin, get_channeplayCB, seconds_to_min
+from PickUpLineMusic.utils.database import get_cmode, is_active_chat, is_music_playing
+from PickUpLineMusic.utils.decorators.language import language, languageCB
+from PickUpLineMusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}

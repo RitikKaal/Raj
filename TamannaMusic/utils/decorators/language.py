@@ -1,5 +1,5 @@
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.utils.database import get_lang, is_maintenance
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 

@@ -4,9 +4,9 @@ import re
 from os import getenv
 from dotenv import load_dotenv
 load_dotenv()
-from TamannaMusic import app
-from TamannaMusic.misc import SUDOERS, db
-from TamannaMusic.utils.database import (
+from PickUpLineMusic import app
+from PickUpLineMusic.misc import SUDOERS, db
+from PickUpLineMusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,

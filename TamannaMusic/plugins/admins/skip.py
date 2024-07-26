@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from TamannaMusic import YouTube, app
-from TamannaMusic.core.call import Tamanna
-from TamannaMusic.misc import db
-from TamannaMusic.utils.database import get_loop
-from TamannaMusic.utils.decorators import AdminRightsCheck
-from TamannaMusic.utils.inline import close_markup, stream_markup
-from TamannaMusic.utils.stream.autoclear import auto_clean
-from TamannaMusic.utils.thumbnails import get_thumb
+from PickUpLineMusic import YouTube, app
+from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.misc import db
+from PickUpLineMusic.utils.database import get_loop
+from PickUpLineMusic.utils.decorators import AdminRightsCheck
+from PickUpLineMusic.utils.inline import close_markup, stream_markup
+from PickUpLineMusic.utils.stream.autoclear import auto_clean
+from PickUpLineMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

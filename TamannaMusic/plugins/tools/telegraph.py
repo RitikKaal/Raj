@@ -4,7 +4,7 @@ import base64
 import httpx
 import os
 from PIL import Image, ImageEnhance
-from TamannaMusic import app
+from PickUpLineMusic import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 @app.on_message(filters.reply & filters.command(["tgm", "telegraph"]))

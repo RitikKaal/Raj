@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from TamannaMusic import app
-from TamannaMusic.utils.formatters import (
+from PickUpLineMusic import app
+from PickUpLineMusic.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,

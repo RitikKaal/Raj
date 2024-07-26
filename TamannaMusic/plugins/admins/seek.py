@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TamannaMusic import YouTube, app
-from TamannaMusic.core.call import Tamanna
-from TamannaMusic.misc import db
-from TamannaMusic.utils import AdminRightsCheck, seconds_to_min
-from TamannaMusic.utils.inline import close_markup
+from PickUpLineMusic import YouTube, app
+from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.misc import db
+from PickUpLineMusic.utils import AdminRightsCheck, seconds_to_min
+from PickUpLineMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

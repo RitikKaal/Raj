@@ -5,17 +5,17 @@ import os
 import re
 import asyncio
 import time
-from TamannaMusic import app
-from TamannaMusic.utils.database import add_served_chat, delete_served_chat
+from PickUpLineMusic import app
+from PickUpLineMusic.utils.database import add_served_chat, delete_served_chat
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from TamannaMusic.utils.database import get_assistant
+from PickUpLineMusic.utils.database import get_assistant
 import asyncio
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.mongo.afkdb import HEHE
-from TamannaMusic.core.userbot import Userbot
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.mongo.afkdb import HEHE
+from PickUpLineMusic.core.userbot import Userbot
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
-from TamannaMusic import app
+from PickUpLineMusic import app
 import asyncio
 import random
 from pyrogram import Client, filters
@@ -26,10 +26,10 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from TamannaMusic import app
-from TamannaMusic.utils.Tamanna_ban import admin_filter
-from TamannaMusic.utils.decorators.userbotjoin import UserbotWrapper
-from TamannaMusic.utils.database import get_assistant, is_active_chat
+from PickUpLineMusic import app
+from PickUpLineMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.decorators.userbotjoin import UserbotWrapper
+from PickUpLineMusic.utils.database import get_assistant, is_active_chat
 
 @app.on_message(
     filters.command("repo")
@@ -42,7 +42,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• sᴏᴜʀᴄᴇ •", url=f"https://github.com/Silentsmile29/TamannaMusic")
+                        "• sᴏᴜʀᴄᴇ •", url=f"https://github.com/Silentsmile29/PickUpLineMusic")
                 ]
             ]
         ),
@@ -60,7 +60,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• sᴏᴜʀᴄᴇ •", url=f"https://github.com/Silentsmile29/TamannaMusic")
+                        "• sᴏᴜʀᴄᴇ •", url=f"https://github.com/Silentsmile29/PickUpLineMusic")
                 ]
             ]
         ),
@@ -77,7 +77,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• sᴏᴜʀᴄᴇ •", url=f"https://github.com/Silentsmile29/TamannaMusic")
+                        "• sᴏᴜʀᴄᴇ •", url=f"https://github.com/Silentsmile29/PickUpLineMusic")
                 ]
             ]
         ),

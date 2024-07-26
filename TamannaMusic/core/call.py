@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from TamannaMusic import LOGGER, YouTube, app
-from TamannaMusic.misc import db
-from TamannaMusic.utils.database import (
+from PickUpLineMusic import LOGGER, YouTube, app
+from PickUpLineMusic.misc import db
+from PickUpLineMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from TamannaMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from TamannaMusic.utils.exceptions import AssistantErr
-from TamannaMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from TamannaMusic.utils.inline.play import stream_markup
-from TamannaMusic.utils.stream.autoclear import auto_clean
-from TamannaMusic.utils.thumbnails import get_thumb
+from PickUpLineMusic.utils.exceptions import AssistantErr
+from PickUpLineMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from PickUpLineMusic.utils.inline.play import stream_markup
+from PickUpLineMusic.utils.stream.autoclear import auto_clean
+from PickUpLineMusic.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}

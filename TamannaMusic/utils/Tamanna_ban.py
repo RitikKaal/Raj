@@ -1,5 +1,5 @@
 from pyrogram import filters
-from TamannaMusic.utils.admin_check import admin_check
+from PickUpLineMusic.utils.admin_check import admin_check
 
 
 USE_AS_BOT = True

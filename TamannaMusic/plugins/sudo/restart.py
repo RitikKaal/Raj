@@ -13,15 +13,15 @@ from pyrogram.types import ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyb
 from io import BytesIO
 from pyrogram import filters
 import config
-from TamannaMusic import app
-from TamannaMusic.misc import HAPP, SUDOERS, XCB
-from TamannaMusic.utils.database import (
+from PickUpLineMusic import app
+from PickUpLineMusic.misc import HAPP, SUDOERS, XCB
+from PickUpLineMusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from TamannaMusic.utils.decorators.language import language
-from TamannaMusic.utils.pastebin import TamannaBin
+from PickUpLineMusic.utils.decorators.language import language
+from PickUpLineMusic.utils.pastebin import TamannaBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

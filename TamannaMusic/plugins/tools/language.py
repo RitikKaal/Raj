@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from TamannaMusic import app
-from TamannaMusic.utils.database import get_lang, set_lang
-from TamannaMusic.utils.decorators import ActualAdminCB, language, languageCB
+from PickUpLineMusic import app
+from PickUpLineMusic.utils.database import get_lang, set_lang
+from PickUpLineMusic.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 

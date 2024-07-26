@@ -4,10 +4,10 @@ from pyrogram.types import Message
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto, InputMediaVideo, Message
 from config import LOGGER_ID as LOG_GROUP_ID
-from TamannaMusic import app  
-from TamannaMusic.core.userbot import Userbot
-from TamannaMusic.utils.database import delete_served_chat
-from TamannaMusic.utils.database import get_assistant
+from PickUpLineMusic import app  
+from PickUpLineMusic.core.userbot import Userbot
+from PickUpLineMusic.utils.database import delete_served_chat
+from PickUpLineMusic.utils.database import get_assistant
 TEST_ID = int("-1002110912467")
 
 

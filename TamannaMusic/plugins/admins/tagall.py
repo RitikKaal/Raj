@@ -1,4 +1,4 @@
-from TamannaMusic import app 
+from PickUpLineMusic import app 
 import asyncio
 import random
 from pyrogram import Client, filters

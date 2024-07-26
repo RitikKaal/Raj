@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from TamannaMusic import app
-from TamannaMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from TamannaMusic.utils.decorators import language
-from TamannaMusic.utils.inline.settings import playmode_users_markup
+from PickUpLineMusic import app
+from PickUpLineMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from PickUpLineMusic.utils.decorators import language
+from PickUpLineMusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 

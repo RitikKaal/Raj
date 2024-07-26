@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TamannaMusic import app
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.utils.database import autoend_off, autoend_on
+from PickUpLineMusic import app
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.utils.database import autoend_off, autoend_on
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)

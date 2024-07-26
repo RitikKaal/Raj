@@ -1,12 +1,12 @@
 from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from TamannaMusic import app
-from TamannaMusic.core.call import Tamanna
-from TamannaMusic.utils import bot_sys_stats
-from TamannaMusic.utils.decorators.language import language
-from TamannaMusic.utils.inline import supp_markup
-from TamannaMusic.utils.inline import close_markup
+from PickUpLineMusic import app
+from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.utils import bot_sys_stats
+from PickUpLineMusic.utils.decorators.language import language
+from PickUpLineMusic.utils.inline import supp_markup
+from PickUpLineMusic.utils.inline import close_markup
 from config import BANNED_USERS
 import aiohttp
 import asyncio
@@ -14,7 +14,7 @@ from io import BytesIO
 from PIL import Image, ImageEnhance 
 from time import time
 import asyncio
-from TamannaMusic.utils.extraction import extract_user
+from PickUpLineMusic.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}

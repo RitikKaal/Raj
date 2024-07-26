@@ -2,9 +2,9 @@ import math
 from typing import Union
 from pyrogram.types import InlineKeyboardButton
 
-from TamannaMusic.utils.formatters import time_to_seconds
+from PickUpLineMusic.utils.formatters import time_to_seconds
 
-from TamannaMusic import app
+from PickUpLineMusic import app
 
 def track_markup(_, user_id, channel, fplay):
     buttons = [

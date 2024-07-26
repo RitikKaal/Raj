@@ -1,11 +1,11 @@
-from TamannaMusic import app
+from PickUpLineMusic import app
 from pyrogram import Client, filters
 from pyrogram.errors import ChatIdInvalid
 from pyrogram.errors import ChatAdminRequired, ChatNotModified, ChatIdInvalid, FloodWait, InviteHashExpired, UserNotParticipant
 import os
 import json
 from pyrogram.types import Message
-from TamannaMusic.misc import SUDOERS
+from PickUpLineMusic.misc import SUDOERS
 
 
 

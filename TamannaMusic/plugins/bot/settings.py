@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from TamannaMusic import app
-from TamannaMusic.utils.database import (
+from PickUpLineMusic import app
+from PickUpLineMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,15 +25,15 @@ from TamannaMusic.utils.database import (
     skip_off,
     skip_on,
 )
-from TamannaMusic.utils.decorators.admins import ActualAdminCB
-from TamannaMusic.utils.decorators.language import language, languageCB
-from TamannaMusic.utils.inline.settings import (
+from PickUpLineMusic.utils.decorators.admins import ActualAdminCB
+from PickUpLineMusic.utils.decorators.language import language, languageCB
+from PickUpLineMusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from TamannaMusic.utils.inline.start import private_panel
+from PickUpLineMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 

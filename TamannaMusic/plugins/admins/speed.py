@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TamannaMusic import app
-from TamannaMusic.core.call import Tamanna
-from TamannaMusic.misc import SUDOERS, db
-from TamannaMusic.utils import AdminRightsCheck
-from TamannaMusic.utils.database import is_active_chat, is_nonadmin_chat
-from TamannaMusic.utils.decorators.language import languageCB
-from TamannaMusic.utils.inline import close_markup, speed_markup
+from PickUpLineMusic import app
+from PickUpLineMusic.core.call import Tamanna
+from PickUpLineMusic.misc import SUDOERS, db
+from PickUpLineMusic.utils import AdminRightsCheck
+from PickUpLineMusic.utils.database import is_active_chat, is_nonadmin_chat
+from PickUpLineMusic.utils.decorators.language import languageCB
+from PickUpLineMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

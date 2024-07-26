@@ -1,8 +1,8 @@
-from TamannaMusic.core.bot import Tamanna
-from TamannaMusic.core.dir import dirr
-from TamannaMusic.core.git import git
-from TamannaMusic.core.userbot import Userbot
-from TamannaMusic.misc import dbb, heroku
+from PickUpLineMusic.core.bot import Tamanna
+from PickUpLineMusic.core.dir import dirr
+from PickUpLineMusic.core.git import git
+from PickUpLineMusic.core.userbot import Userbot
+from PickUpLineMusic.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER

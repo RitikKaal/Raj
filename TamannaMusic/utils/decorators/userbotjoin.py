@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import Client, filters
-from TamannaMusic import YouTube, app
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.utils.database import (
+from PickUpLineMusic import YouTube, app
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from TamannaMusic.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from TamannaMusic.utils.inline import botplaylist_markup
+from PickUpLineMusic.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 

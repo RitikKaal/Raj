@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from TamannaMusic import app
-from TamannaMusic.utils.database import is_on_off
+from PickUpLineMusic import app
+from PickUpLineMusic.utils.database import is_on_off
 from config import LOGGER_ID
 
 

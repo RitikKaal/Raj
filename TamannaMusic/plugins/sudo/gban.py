@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from TamannaMusic import app
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.utils import get_readable_time
-from TamannaMusic.utils.database import (
+from PickUpLineMusic import app
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.utils import get_readable_time
+from PickUpLineMusic.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from TamannaMusic.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from TamannaMusic.utils.decorators.language import language
-from TamannaMusic.utils.extraction import extract_user
+from PickUpLineMusic.utils.decorators.language import language
+from PickUpLineMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

@@ -1,4 +1,4 @@
-from TamannaMusic import app
+from PickUpLineMusic import app
 from os import environ
 import random
 from pyrogram import Client, filters
@@ -69,8 +69,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "TamannaMusic/assets/userinfo.png"
-font_path = "TamannaMusic/assets/hiroko.ttf"
+bg_path = "PickUpLineMusic/assets/userinfo.png"
+font_path = "PickUpLineMusic/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 

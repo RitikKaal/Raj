@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TamannaMusic import app
-from TamannaMusic.core.call import Tamanna
+from PickUpLineMusic import app
+from PickUpLineMusic.core.call import Tamanna
 
 welcome = 20
 close = 30

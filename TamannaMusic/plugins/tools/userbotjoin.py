@@ -1,9 +1,9 @@
 import asyncio
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.core.userbot import Userbot
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.core.userbot import Userbot
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
-from TamannaMusic import app
+from PickUpLineMusic import app
 import asyncio
 import random
 from pyrogram import Client, filters
@@ -14,10 +14,10 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from TamannaMusic import app
-from TamannaMusic.utils.Tamanna_ban import admin_filter
-from TamannaMusic.utils.decorators.userbotjoin import UserbotWrapper
-from TamannaMusic.utils.database import get_assistant, is_active_chat
+from PickUpLineMusic import app
+from PickUpLineMusic.utils.Tamanna_ban import admin_filter
+from PickUpLineMusic.utils.decorators.userbotjoin import UserbotWrapper
+from PickUpLineMusic.utils.database import get_assistant, is_active_chat
 links = {}
 
 

@@ -2,7 +2,7 @@ import asyncio, os, time, aiohttp
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from asyncio import sleep
-from TamannaMusic import app
+from PickUpLineMusic import app
 from pyrogram import filters, Client, enums
 from pyrogram.enums import ParseMode
 from pyrogram.types import *
@@ -10,7 +10,7 @@ from typing import Union, Optional
 import random
 from time import time
 import asyncio
-from TamannaMusic.utils.extraction import extract_user
+from PickUpLineMusic.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
@@ -76,8 +76,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "TamannaMusic/assets/userinfo.png"
-font_path = "TamannaMusic/assets/hiroko.ttf"
+bg_path = "PickUpLineMusic/assets/userinfo.png"
+font_path = "PickUpLineMusic/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 

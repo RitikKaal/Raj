@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TamannaMusic import app
-from TamannaMusic.misc import SUDOERS
-from TamannaMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from TamannaMusic.utils.decorators.language import language
+from PickUpLineMusic import app
+from PickUpLineMusic.misc import SUDOERS
+from PickUpLineMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from PickUpLineMusic.utils.decorators.language import language
 from config import BANNED_USERS
 
 

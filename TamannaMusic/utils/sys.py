@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from TamannaMusic.misc import _boot_
-from TamannaMusic.utils.formatters import get_readable_time
+from PickUpLineMusic.misc import _boot_
+from PickUpLineMusic.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
